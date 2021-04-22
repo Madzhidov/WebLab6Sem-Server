@@ -1,0 +1,37 @@
+{
+  "name": "itmo_web_6sem_server",
+  "version": "1.0.0",
+  "description": "![Last commit date](https://img.shields.io/github/last-commit/DFirsa/ITMO_web_6sem_server?color=%230082f3&style=for-the-badge)\r ![Most used language](https://img.shields.io/github/languages/top/DFirsa/ITMO_web_6sem_server?color=%2324&style=for-the-badge)\r ![Repo size](https://img.shields.io/github/repo-size/DFirsa/ITMO_web_6sem_server?color=%23EE5500&style=for-the-badge)\r ![Languages counter](https://img.shields.io/github/languages/count/DFirsa/ITMO_web_6sem_server?style=for-the-badge)",
+  "main": "./index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DFirsa/ITMO_web_6sem_server.git"
+  },
+  "author": "Shakhrom Madzhidov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DFirsa/ITMO_web_6sem_server/issues"
+  },
+  "homepage": "https://github.com/DFirsa/ITMO_web_6sem_server#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongodb": "^3.6.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "keywords": [
+    "Part3"
+  ]
+}
