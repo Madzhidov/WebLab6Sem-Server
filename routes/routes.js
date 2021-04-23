@@ -40,7 +40,7 @@ router.post('/favorites', asyncHandler(async (req, res) => {
     }
         
     const data = await apiRequester.getData(req.query.city);
-    if (await dao.isIncluded(data.coords)) {
+    if (await dao.alreadyContains(data.coords)) {
     console.log("This city is already in db");
     res.sendStatus(409);
     return;
